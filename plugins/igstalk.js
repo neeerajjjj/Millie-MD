@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm...username nya mana?'
+  if (!args[0]) throw 'No Username found'
 
   fetch(`https://api.xteam.xyz/dl/igstalk?nama=${args[0]}&APIKEY=d37372311698ed1d`)  
 .then(res => res.json())
