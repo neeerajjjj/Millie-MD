@@ -1,4 +1,4 @@
-# Millie-MD
+# Millie-MD [BETA]
 Millie WhatsApp BOT Multi-Device version (Beta Version)
 
 
